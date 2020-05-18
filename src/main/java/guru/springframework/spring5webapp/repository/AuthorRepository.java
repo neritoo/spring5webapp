@@ -1,4 +1,4 @@
-package guru.springframework.spring5webapp;
+package guru.springframework.spring5webapp.repository;
 
 import guru.springframework.spring5webapp.domain.Author;
 import org.springframework.data.repository.CrudRepository;
