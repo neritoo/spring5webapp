@@ -40,7 +40,7 @@ public class BootStrapData implements CommandLineRunner {
         eric.getBooks().add(ddd);
         ddd.getAuthors().add(eric);
 
-        //ddd.setPublisher(john);
+        ddd.setPublisher(john);
         john.getBooks().add(ddd);
 
         authorRepository.save(eric);
@@ -52,7 +52,7 @@ public class BootStrapData implements CommandLineRunner {
         rod.getBooks().add(noEJB);
         noEJB.getAuthors().add(rod);
 
-        //noEJB.setPublisher(john);
+        noEJB.setPublisher(john);
         john.getBooks().add(noEJB);
 
         authorRepository.save(rod);
